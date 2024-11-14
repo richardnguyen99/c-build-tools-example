@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.ejs": "ejs",
+    "using-make/include/whois.h": "c",
+    "whois.h": "c"
+  }
+}
