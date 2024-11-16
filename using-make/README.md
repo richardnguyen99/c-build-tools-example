@@ -1,13 +1,13 @@
-# using-autotools
+# using-make
 
-Example of using Autotools to build a C project
+Example of using GNU Make to build C projects
 
 ## Compile
 
 ```bash
-autoreconf --install --force
-./configure # or ./configure --enable-debug
 make
+# or
+make debug
 ```
 
 ## Run
@@ -15,7 +15,8 @@ make
 Open a terminal and run the server:
 
 ```bash
-./whoisserver
+./whoisserver # or ./whoisserver_debug
+Server is listening on localhost:10496
 ```
 
 Open another terminal and run the client:
